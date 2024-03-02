@@ -1,0 +1,24 @@
+.container{
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+}
+
+#value {
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.btn-decrease, .btn-reset, .btn-increase {
+  background: transparent;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin: 0.5rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  color: lightgreen;
+  background: rgba(0, 0, 0, 0.3);
+}
